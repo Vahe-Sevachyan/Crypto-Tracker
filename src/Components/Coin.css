@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "lato", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: whitesmoke;
+  background-color: #141c2f;
+  font-size: 1.5rem;
+}
+
+.coin-container {
+  display: flex;
+  justify-content: center;
+}
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  height: 8rem;
+  border-bottom: 1px solid #d7d7d7;
+  width: 90rem;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 2.4rem;
+  min-width: 30rem;
+}
+.coin h1 {
+  font-size: 1.6rem;
+  width: 15rem;
+}
+.coin img {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+}
+.coin-symbol {
+  text-transform: uppercase;
+}
+.coin-data {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.coin-price {
+  width: 11rem;
+}
+.coin-volume {
+  width: 20rem;
+  margin-left: 1.5rem;
+}
+.coin-marketcap {
+  width: 24rem;
+}
+.coin-percent {
+  width: 80%;
+}
+.red {
+  color: crimson;
+}
+.green {
+  color: rgb(17, 212, 17);
+}
+.sectionNames {
+  display: flex;
+  width: 90rem;
+  justify-content: space-between;
+}
